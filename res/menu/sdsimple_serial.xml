@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/connect"
+        android:title="Connect">
+    </item>
+    <item
+        android:id="@+id/Reconnect"
+        android:title="Reconnect">
+    </item>
+    <item
+        android:id="@+id/disconnect"
+        android:title="Disconnect">
+    </item>
+    <item
+        android:id="@+id/baud"
+        android:title="baud rate">
+        <menu>
+            <item
+                android:id="@+id/br2400"
+                android:title="2400"/>
+            <item
+                android:id="@+id/br9600"
+                android:title="9600"/>
+            <item
+                android:id="@+id/br19200"
+                android:title="19200"/>
+            <item
+                android:id="@+id/br38400"
+                android:title="38400"/>
+            <item
+                android:id="@+id/br115200"
+                android:title="115200"/>
+        </menu>
+    </item>
+
+</menu>
