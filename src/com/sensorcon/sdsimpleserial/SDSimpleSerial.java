@@ -53,6 +53,7 @@ public class SDSimpleSerial extends Activity {
 				if (stringToSend != null && stringToSend.length() >0) {
 					// There is a 32 byte limit. If longer than 32 bytes,
 					// usartWrite won't send the data
+                    stringToSend += "\r\n";
 					byte[] dataToSend = stringToSend.getBytes();
 					myDrone.uartWrite(dataToSend);
 				}
